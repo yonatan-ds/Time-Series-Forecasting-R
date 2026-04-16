@@ -1,18 +1,19 @@
-# Time Series Analysis and Forecasting in R 📊
+# 📊 Time Series Analysis and Forecasting with R
 
-This repository contains an advanced statistical analysis project focused on time series forecasting for health and birth data. Using R, I implemented models to decompose trends and predict future patterns.
+This project demonstrates advanced statistical modeling for time-series data. I used R to analyze public health trends and birth rates, focusing on seasonal patterns and future forecasting.
 
-## 🚀 Key Features
-- [cite_start]**Data Decomposition:** Analyzed seasonal and trend components using `decompose()`[cite: 1, 11, 54].
-- [cite_start]**Statistical Testing:** Applied Ljung-Box tests for randomness and checked stationarity with ACF/PACF plots[cite: 1, 15, 18, 60].
-- [cite_start]**Model Comparison:** Compared multiple ARIMA models to find the best fit based on AIC[cite: 1, 29, 31, 73].
-- [cite_start]**Future Forecasting:** Used `auto.arima()` and `forecast()` to predict future values for 12-month periods[cite: 1, 38, 42, 81, 85].
+## 🚀 Key Project Highlights
+- **Data Transformation:** Applied log-transformations to handle outliers and stabilize variance.
+- **Statistical Modeling:** Built and compared several **ARIMA** models to find the best fit for forecasting.
+- **Forecasting:** Predicted future trends for a 12-month horizon using the `forecast` library.
+- **Randomness Testing:** Performed **Ljung-Box** tests to ensure model reliability.
 
-## 🛠 Tools Used
+## 🛠 Tech Stack & Tools
 - **Language:** R
-- **Key Libraries:** `forecast`, `tseries`
-- [cite_start]**Techniques:** ARIMA Modeling, Log Transformation, Differencing[cite: 1, 8, 23, 62].
+- **Key Functions Used:** `ts()`, `decompose()`, `acf()`, `pacf()`, `auto.arima()`, `forecast()`
+- **Libraries:** `tseries`, `forecast`
 
-## 📂 Datasets
-- [cite_start]**Cancer Rate Data:** Historical trends from 1930 onwards[cite: 1, 4, 9].
-- [cite_start]**NYC Birth Data:** Monthly records starting from 1946[cite: 1, 46, 50].
+## 📂 Included Analysis
+The project covers:
+1. **Cancer Rate Analysis:** Historical trend identification and modeling.
+2. **NYC Birth Data:** Seasonal decomposition and pattern recognition.
